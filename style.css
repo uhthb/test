@@ -1,0 +1,17 @@
+body {
+    margin: 0;  
+}
+.page-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1px 1fr 1fr;
+    grid-template-rows: 1;
+    padding: 20px;
+    gap:15px;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: #D9FFF5 1px solid;
+}
+svg:hover {
+    transition: 0.8s;
+    transform:scale(1.1);
+}
