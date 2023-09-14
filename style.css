@@ -118,3 +118,6 @@ svg:hover {
     justify-self: center;
     width: 100%;
 }
+#more {
+    display: none;
+}
