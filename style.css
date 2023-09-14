@@ -54,7 +54,7 @@ svg:hover {
     text-align: left;
 }
 .menu__item:first-child{
-    margin-left: 40px;
+    margin-left: 35px;
 }
 
 .menu__item--link {
@@ -79,4 +79,33 @@ svg:hover {
     border: 2px solid #41F6D7;
     border-radius: 6px;
     background-color: #fff;
+}
+.blog__content {
+    margin: 15px 0px;
+    padding: 0 35px;
+}
+.blog__content--style{
+    font-family: TT Lakes;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.read-more-button {
+    align-self: start;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+}
+.read-more-button--size {
+    width: 132px;
+    height: 24px;
+}
+.read-more-button__text{
+    font-family: TT Lakes;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
 }
