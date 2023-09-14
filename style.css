@@ -28,7 +28,7 @@ svg:hover {
 }
 .menu__title {
     padding: 0 20px;
-    font-family: TT Lakes;
+    font-family: TTLakesBold;
     font-size: 28px;
     line-height: 40px;
     letter-spacing: -0.6000000238418579px;
@@ -47,11 +47,13 @@ svg:hover {
 .menu__item {
     margin: 10px;
     margin-top: 5px;
-    font-family: TT Lakes;
+    font-family: TTLakesMedium;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.20000000298023224px;
     text-align: left;
+    color: rgba(126, 126, 130, 1);
+;
 }
 .menu__item:first-child{
     margin-left: 35px;
@@ -85,7 +87,7 @@ svg:hover {
     padding: 0 35px;
 }
 .blog__content--style{
-    font-family: TT Lakes;
+    font-family: TTLakesRegular;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.20000000298023224px;
@@ -103,7 +105,7 @@ svg:hover {
     height: 24px;
 }
 .read-more-button__text{
-    font-family: TT Lakes;
+    font-family: TTLakesMedium;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.20000000298023224px;
