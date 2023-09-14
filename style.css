@@ -109,3 +109,9 @@ svg:hover {
     letter-spacing: -0.20000000298023224px;
     text-align: left;
 }
+.blog__image {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+}
