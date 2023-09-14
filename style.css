@@ -60,6 +60,7 @@ svg:hover {
 }
 
 .menu__item--link {
+    transition: 0.8s;
     text-decoration: none;
     padding: 10px;
 }
