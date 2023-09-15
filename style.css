@@ -3,7 +3,7 @@ body {
 }
 .header {
     display: grid;
-    grid-template-columns: 1fr 2fr 1px 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1px 1fr 1fr;
     grid-template-rows: 1;
     padding: 20px;
     gap:15px;
@@ -120,5 +120,26 @@ svg:hover {
     width: 100%;
 }
 #more {
+    display: none;
+}
+.menu__item--hidden-repair-devices {
+    display: none;
+}
+.call-icon {
+    display: none;
+}
+.chat-icon {
+    display: none;
+}
+.account-icon {
+    display: none;
+}
+.border-between-logo {
+    display: none;
+}
+.read-more-button--mobile{
+    display: block;
+}
+.read-more-button--tablet {
     display: none;
 }

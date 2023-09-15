@@ -1,0 +1,54 @@
+@media (min-width: 768px) and (max-width: 1119.98px) {
+    /*Хедер на планшете*/
+    .call-icon {
+    display: block;
+    margin-left: auto;
+    }
+    .chat-icon {
+        display: block;
+    }
+    .account-icon {
+        display: block;
+    }
+    .border-between-logo {
+        display: block;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        height: 3em;
+    }
+
+    /*Контент на планшете*/
+    .blog__post {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: 300px;;
+    }
+    .read-more-button {
+        display: flex;
+        white-space: nowrap;
+        align-items: center;
+    }
+    .blog__flex-item {
+        width: 50%;
+    }
+    .blog__image {
+
+    }
+    .read-more-button--mobile {
+        display: none;
+    }
+    .blog__content--second-article {
+        display: inline;
+    }
+    .blog__second-half {
+        display: none;
+    }
+}
+
+@media (min-width: 1120px) {
+
+}
