@@ -33,7 +33,7 @@
         align-items: center;
     }
     .blog__flex-item {
-        width: 50%;
+        width: 45%;
     }
     .read-more-button--mobile {
         display: none;
