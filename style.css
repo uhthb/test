@@ -143,3 +143,7 @@ svg:hover {
 .read-more-button--tablet {
     display: none;
 }
+.read-more-button--tablet .read-more-button__icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
