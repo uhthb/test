@@ -147,3 +147,15 @@ svg:hover {
     margin-left: 10px;
     margin-right: 10px;
 }
+.menu__button--font-style {
+    color: #1B1C21;
+    font-family: TTLakesRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+.menu__button {
+    display: none;
+}
