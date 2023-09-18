@@ -34,7 +34,6 @@
     }
     .blog__flex-item {
         width: 45%;
-        display: flex;
     }
     .read-more-button--mobile {
         display: none;
