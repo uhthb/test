@@ -43,6 +43,7 @@ svg:hover {
     overflow-x: scroll;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    margin: 0 25px;
 }
 .menu__item {
     margin: 10px;
@@ -54,9 +55,6 @@ svg:hover {
     text-align: left;
     color: rgba(126, 126, 130, 1);
 ;
-}
-.menu__item:first-child{
-    margin-left: 35px;
 }
 .--active{
     outline: 2px solid #41F6D7;
@@ -81,7 +79,7 @@ svg:hover {
 }
 .menu__item--link:hover{
     transition: 0.8s;
-    transform: scale(1.1);
+    transform: scale(1.05);
     outline: 2px solid #41F6D7;
     border-radius: 6px;
     background-color: #fff;
@@ -293,9 +291,6 @@ svg:hover {
         overflow-x: hidden;
         overflow-y: hidden;
         flex-wrap: wrap;
-    }
-    .menu__item:nth-child(8) {
-        margin-left: 35px;
     }
     .blog__image {
         max-width: 500px;
