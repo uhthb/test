@@ -58,7 +58,11 @@ svg:hover {
 .menu__item:first-child{
     margin-left: 35px;
 }
-
+.--active{
+    outline: 2px solid #41F6D7;
+    background-color: #fff;
+    border-radius: 6px;
+}
 .menu__item--link {
     transition: 0.8s;
     text-decoration: none;
@@ -72,14 +76,13 @@ svg:hover {
     text-align: left;
 }
 .menu__item--link:active{
-    border: 2px solid #41F6D7;
-    border-radius: 6px;
+    outline: 2px solid #41F6D7;
     background-color: #fff;
 }
 .menu__item--link:hover{
     transition: 0.8s;
     transform: scale(1.1);
-    border: 2px solid #41F6D7;
+    outline: 2px solid #41F6D7;
     border-radius: 6px;
     background-color: #fff;
 }
@@ -100,6 +103,8 @@ svg:hover {
     margin-bottom: 20px;
     background: none;
     border: none;
+    white-space: nowrap;
+    cursor: pointer;
 }
 .read-more-button--size {
     width: 132px;
@@ -111,6 +116,9 @@ svg:hover {
     line-height: 24px;
     letter-spacing: -0.20000000298023224px;
     text-align: left;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
 }
 .blog__image {
     align-items: center;
@@ -125,13 +133,16 @@ svg:hover {
 .menu__item--hidden-repair-devices {
     display: none;
 }
-.call-icon {
+.call-link {
+    display: none;
+    }
+.chat-link {
     display: none;
 }
-.chat-icon {
+.account-link {
     display: none;
 }
-.account-icon {
+.profile-link {
     display: none;
 }
 .border-between-logo {
@@ -139,9 +150,6 @@ svg:hover {
 }
 .read-more-button--mobile{
     display: block;
-}
-.read-more-button--tablet {
-    display: none;
 }
 .read-more-button--tablet .read-more-button__icon {
     margin-left: 10px;
@@ -158,4 +166,33 @@ svg:hover {
 }
 .menu__button {
     display: none;
+}
+.menu-navigation__button {
+    background-color: transparent;
+    border: none;
+    white-space: nowrap;
+}
+.repair-link {
+    white-space: nowrap;
+}
+.repair-link::before {
+    content: '';
+    height: 32px;
+    width: 2px;
+    background: rgba(234, 234, 234, 1);
+    display: inline-block;
+    margin-right: 15px;
+}
+.menu-navigation--margin {
+    margin-left: -10px;
+}
+.menu__button--content:hover {
+    transition: 0.8s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.menu__button--content{
+    background-color: transparent;
+    border: none;
+    white-space: nowrap;
 }

@@ -1,8 +1,19 @@
 @media (min-width: 768px) {
     /*Хедер на планшете*/
+    .menu-navigation__button::after {
+    content: '';
+    height: 32px;
+    width: 2px;
+    background: rgba(234, 234, 234, 1);
+    display: inline-block;
+    margin-left: 20px;
+}
     .call-icon {
     display: block;
-    margin-left: auto;
+    }
+    .call-link {
+        display: inline;
+        margin-left: auto;
     }
     .chat-icon {
         display: block;
@@ -18,7 +29,21 @@
         flex-direction: row;
         height: 3em;
     }
-
+    .call-link {
+        display: block;
+    }
+    .chat-link {
+        display: block;
+    }
+    .profile-link {
+        display: block;
+    }
+    .repair-link {
+    display: block;
+    }
+    .check-status-link {
+        display: block;
+    }
     /*Контент на планшете*/
     .blog__post {
         display: flex;
@@ -35,12 +60,12 @@
     .blog__flex-item {
         width: 45%;
     }
-    .read-more-button--mobile {
-        display: none;
-    }
     #more {
         display: inline;
     }
+    .read-more-button__text{
+    bottom: 0px;
+}
 }
 
 
