@@ -196,3 +196,109 @@ svg:hover {
     border: none;
     white-space: nowrap;
 }
+@media (min-width: 768px) {
+    /*Хедер на планшете*/
+    .menu-navigation__button::after {
+    content: '';
+    height: 32px;
+    width: 2px;
+    background: rgba(234, 234, 234, 1);
+    display: inline-block;
+    margin-left: 20px;
+}
+    .call-icon {
+    display: block;
+    }
+    .call-link {
+        display: inline;
+        margin-left: auto;
+    }
+    .chat-icon {
+        display: block;
+    }
+    .account-icon {
+        display: block;
+    }
+    .border-between-logo {
+        display: block;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        height: 3em;
+    }
+    .call-link {
+        display: block;
+    }
+    .chat-link {
+        display: block;
+    }
+    .profile-link {
+        display: block;
+    }
+    .repair-link {
+    display: block;
+    }
+    .check-status-link {
+        display: block;
+    }
+    /*Контент на планшете*/
+    .blog__post {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: 300px;;
+    }
+    .read-more-button {
+        display: flex;
+        white-space: nowrap;
+        align-items: center;
+    }
+    .blog__flex-item {
+        width: 45%;
+    }
+    #more {
+        display: inline;
+    }
+    .read-more-button__text{
+    bottom: 0px;
+}
+}
+
+
+@media (min-width: 1120px) {
+    /*new header*/
+    .header {
+        display: none;
+    }
+    .desktop-header {
+        display: flex;
+        flex-direction: row;
+    }
+    .menu__button {
+        display: flex;
+        margin-left:  auto;
+    }
+    .menu__button--content {
+        margin-right: 32px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+    /*delete overflow*/
+    .menu__list {
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        flex-wrap: wrap;
+    }
+    .menu__item:nth-child(8) {
+        margin-left: 35px;
+    }
+    .blog__image {
+        max-width: 500px;
+        height: auto;
+    }
+}
