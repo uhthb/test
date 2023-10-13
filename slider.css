@@ -74,7 +74,7 @@ body {
     border: 2px solid #ff3e79;
     right: 14px;
     top: 15px;
-    background: url(.../img/slider_btn/dropdown.svg) no-repeat 15px 50%;
+    background: url(../img/slider_btn/dropdown.svg) no-repeat 15px 50%;
     transition-duration: 500ms;
 }
 
@@ -150,7 +150,7 @@ body {
     .slider__btn-show-more::before {
         position: absolute;
         content: "";
-        background-image: url(../img/expand.svg);
+        background-image: url(./img/expand.svg);
         width: 24px;
         height: 24px;
         left: -24px;
