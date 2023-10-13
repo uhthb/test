@@ -6,29 +6,80 @@
     <title>Parners</title>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/slider.css">
 </head>
 <body>
-            <!-- Slider main container -->
-            <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                ...
+ <body>
+    <main>
+        <article class="slider">
+            <h2 class="slider__title">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h2>
+            <div class="swiper slider__wrapper">
+                <div class="slider__items swiper-wrapper">
+                    <div class="swiper-slide slider__item">
+                        <button class="slider__btn slider__btn--lenovo">
+                            <img src="./img/slider_btn/Lenovo.svg" alt="lenovo ">
+                        </button>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <button class="slider__btn slider__btn--samsung">
+                            <img src="./img/slider_btn/samsung.svg " alt="samsung ">
+                        </button>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <button class="slider__btn slider__btn--apple">
+                            <img src="./img/slider_btn/apple.svg" alt="apple ">
+                        </button>
+                    </div>
+                    <div class="swiper-slide slider__item ">
+                        <button class="slider__btn slider__btn--viewsonic">
+                            <img src="./img/slider_btn/viewsonic.svg " alt="viewsonic ">
+                        </button>
+                    </div>
+                    <div class="swiper-slide slider__item ">
+                        <button class="slider__btn slider__btn--bosh">
+                            <img src="./img/slider_btn/bosh.svg" alt="bosh ">
+                        </button>
+                    </div>
+                    <div class="swiper-slide slider__item ">
+                        <button class="slider__btn slider__btn--hp">
+                            <img src="./img/slider_btn/hp.svg" alt="hp ">
+                        </button>
+                    </div>
+                    <div class="swiper-slide slider__item ">
+                        <button class="slider__btn slider__btn--acer">
+                            <img src="./img/slider_btn/acer.svg" alt="acer ">
+                        </button>
+                    </div>
+                    <div class="swiper-slide slider__item ">
+                        <button class="slider__btn slider__btn--sony">
+                            <img src="./img/slider_btn/sony.svg" alt="sony ">
+                        </button>
+                    </div>
+                    <div class="swiper-slide slider__item ">
+                        <button class="slider__btn slider__btn--dell ">
+                            <img src="./img/slider_btn/dell.svg" alt="dell ">
+                        </button>
+                    </div>
+                    <div class="swiper-slide slider__item ">
+                        <button class="slider__btn slider__btn--xiaomi ">
+                            <img src="./img/slider_btn/xiaomi.svg" alt="xiaomi ">
+                        </button>
+                    </div>
+                    <div class="swiper-slide slider__item ">
+                        <button class="slider__btn slider__btn--lg ">
+                            <img src="./img/slider_btn/lg.svg" alt="lg ">
+                        </button>
+                    </div>
+                </div>
+                <div class="swiper-pagination slider__pagination "></div>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <button class="slider__btn-show-more ">Показать все</button>
 
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-            </div>
-    <script src="app.js"></script>
+        </article>
+    </main>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script src="/slider.js "></script>
 </body>
 </html>
