@@ -173,9 +173,6 @@ body {
     .slider__wrapper {
         margin-left: 32px;
     }
-    .slider__items {
-        /* margin-left: 32px; */
-    }
     .slider__items--show-all {
         height: auto
     }
