@@ -1,3 +1,4 @@
+@import '../../node_modules/swiper/swiper-bundle.css';
 body {
     margin: 0 auto;
 }
@@ -464,4 +465,10 @@ svg:hover {
 .--bth-hover:hover{
     transform: scale(1.05);
     transition: 0.8s;
+}
+
+/*swiper*/
+.swiper {
+  width: 600px;
+  height: 300px;
 }
