@@ -169,6 +169,8 @@ body {
     .slider__btn-show-more.slider__btn-show-more--open::before {
         transform: rotate(180deg);
     }
+    .slider__title::after{
+    display: none;}
 }
 
 @media (min-width:1120px) {
