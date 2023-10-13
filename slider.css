@@ -37,6 +37,16 @@ body {
     background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
     border-top: 1px solid #d9fff5;
 }
+.slider__title::after{
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 81px;
+    right: 0;
+    top: 87px;
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    z-index: 2;
+}
 
 .slider__items {
     margin-bottom: 32px;
